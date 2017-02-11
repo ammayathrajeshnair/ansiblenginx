@@ -1,6 +1,7 @@
 ---
+#changed states from present to started - Ammayath Rajesh
 - name: Install the selinux python module
-  package: name={{ item }} state=present
+  package: name={{ item }} state=started
   with_items:
     - libselinux-python
     - libsemanage-python

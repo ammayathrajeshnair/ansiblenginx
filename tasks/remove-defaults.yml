@@ -1,4 +1,10 @@
 ---
+#  Added code for copy file file if exist - Ammayath Rajesh Nair
+- name: Copy existing file
+- copy:
+   src: "{{nginx_conf_dir}}/sites-enabled/default
+   dest: /var/opt/default
+   ``
 - name: Disable the default site
   file:
     path: "{{nginx_conf_dir}}/sites-enabled/default"
