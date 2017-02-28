@@ -5,7 +5,6 @@
     dest: "{{ nginx_conf_dir }}/nginx.conf"
   notify:
    - restart nginx
-
 - name: Ensure auth_basic files created
   template:
     src: auth_basic.j2
