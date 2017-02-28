@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: "DAUPHANT Julien"
+  author: "A R N"
   license: BSD
   min_ansible_version: 2.0
   platforms:
